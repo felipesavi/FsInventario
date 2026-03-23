@@ -1,36 +1,111 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📦 Sistema de Inventario Escolar
 
-## Getting Started
+Aplicación web para la gestión de inventario en un entorno educativo. Permite registrar, consultar y administrar productos de manera eficiente.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Demo
+
+🔗 Próximamente disponible en Vercel
+
+---
+
+## 🛠️ Tecnologías
+
+* ⚛️ Next.js
+* ⚛️ React
+* 🔥 Firebase (Firestore)
+* 🎨 Tailwind CSS
+
+---
+
+## 📸 Capturas (opcional)
+
+*Aquí puedes agregar imágenes de tu app*
+
+---
+
+## 📂 Estructura del proyecto
+
+```
+/app            → Rutas y páginas (Next.js App Router)
+/components     → Componentes reutilizables
+/lib            → Configuración (Firebase)
+/public         → Recursos estáticos
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🔥 Configuración de Firebase
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Para ejecutar este proyecto en local:
 
-## Learn More
+1. Crear un proyecto en Firebase
+2. Obtener credenciales
+3. Crear un archivo `.env.local` en la raíz:
 
-To learn more about Next.js, take a look at the following resources:
+```
+NEXT_PUBLIC_FIREBASE_API_KEY=tu_api_key
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=tu_auth_domain
+NEXT_PUBLIC_FIREBASE_DATABASE_URL=tu_database_url
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=tu_project_id
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=tu_storage_bucket
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=tu_sender_id
+NEXT_PUBLIC_FIREBASE_APP_ID=tu_app_id
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+⚠️ Este archivo no debe subirse al repositorio.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🧪 Instalación
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm install
+npm run dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Abrir en navegador:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 🌐 Despliegue
+
+El proyecto puede desplegarse fácilmente usando Vercel:
+
+1. Subir repositorio a GitHub
+2. Importar proyecto en Vercel
+3. Configurar variables de entorno
+4. Deploy 🚀
+
+---
+
+## 📌 Funcionalidades
+
+* 📦 Registro de productos
+* 📊 Control de inventario
+* 🔄 Actualización en tiempo real con Firebase
+* 🎨 Interfaz moderna y responsiva
+
+---
+
+## 🔐 Seguridad
+
+Las credenciales sensibles se manejan mediante variables de entorno (`.env.local`) y no se exponen en el repositorio.
+
+---
+
+## 👨‍💻 Autor
+
+Desarrollado por Felipe Sandoval
+📧 [felipesandovalvillalobos@hotmail.com](mailto:felipesandovalvillalobos@hotmail.com)
+
+---
+
+## ⭐ Notas
+
+Proyecto desarrollado como práctica y portafolio para demostrar habilidades en desarrollo web moderno.
