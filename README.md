@@ -17,13 +17,6 @@ Aplicación web para la gestión de inventario en un entorno educativo. Permite 
 * 🔥 Firebase (Firestore)
 * 🎨 Tailwind CSS
 
----
-
-## 📸 Capturas (opcional)
-
-*Aquí puedes agregar imágenes de tu app*
-
----
 
 ## 📂 Estructura del proyecto
 
